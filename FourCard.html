@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Four Card</title>
+    <link rel="stylesheet" href="FourCard.css">
+    <style>
+        body{
+    background-color: rgb(241, 241, 241);
+}
+.container{
+    margin: 80px;
+}
+.normal{
+    color: grey;
+    font-weight: normal;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+.bold{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 3px;
+}
+.title{
+    color: rgb(125, 125, 125);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    margin: 13px;
+}
+h4{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(74, 74, 74);
+    padding:0px 65px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    height: 70px;
+    padding: 40px;
+}
+P{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(179, 179, 179);
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+    padding:0px 27px;
+
+}
+.hecla{
+    padding:0px 74px;
+}
+.item1{
+    border: 7px solid rgb(194, 0, 0);
+    border-radius: 7px;
+    border-left: 3px;
+    border-right: 3px;
+    border-bottom: 3px;
+    background-color: white;
+    width: 400px;
+    height: 260px;
+    box-shadow: -5px 10px 20px rgb(201, 196, 196);
+    padding-bottom: 40px;
+ 
+}
+.item2{
+    border: 7px solid rgb(35, 166, 206);
+    border-radius: 7px;
+    border-left: 3px;
+    border-right: 3px;
+    border-bottom: 3px;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    box-shadow: -5px 10px 20px rgb(201, 196, 196);
+
+}
+.item3{
+    border: 7px solid rgb(255, 181, 84);
+    border-radius: 7px;
+    border-left: 3px;
+    border-right: 3px;
+    border-bottom: 3px;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    box-shadow: -5px 10px 20px rgb(201, 196, 196);
+}
+.item4{
+    border: 7px solid rgb(38, 223, 251);
+    border-radius: 7px;
+    border-left: 3px;
+    border-right: 3px;
+    border-bottom: 3px;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    box-shadow: -5px 10px 20px rgb(201, 196, 196);
+}
+.items{
+    display: flex;
+    margin-left: 225px;
+}
+table{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+th{
+    border: 0px solid;
+}
+.tdd{
+    border: 0px solid;
+    padding-right: 20px;
+}
+.tdd2{
+    border: 0px solid;
+    padding-left: 20px;
+}
+.idd2{
+    border: 0px solid;
+    padding-top: 30px;
+}
+.tecla{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(74, 74, 74);
+    text-align: left;
+    padding:0px 54px;
+}
+.tecp{
+    padding:0px 27px;
+
+}
+.hecpla{
+    font-weight: bold;
+    padding:0px 54px;
+}
+.adjust3{
+    padding:0px 49px;
+}
+@media screen and (max-width:500px){
+    .container{
+        display: block;
+        text-align: center;
+        margin-left: 75px;
+
+    }
+    .first{
+        display: block;
+        padding: 24px;
+        padding-top: 4px;
+    }
+    .second{
+        display: block;
+        padding: 30px;
+        padding-top: 2px;
+    }
+    .third{
+        display: block;
+        padding: 30px;
+        margin-bottom: 30px;
+        margin-top: -70px;
+    }
+    .tdd2{
+        display: block;
+        padding: 4px;
+        padding-top: 10px;
+        padding-top: 24px;
+        padding-top:0px 60px;
+    }
+    
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3 class="normal">Reliable, efficient delivery</h3>
+        <h3 class="bold">Powered by Technology</h3>
+        <p class="title">Our Artificial Intelligence powered tools use millions of 
+        project data points to ensure that your project is successful</p>
+    </div>
+    <div class="block">
+        <table>
+            <tr class="first">
+                <th></th>
+                <th rowspan="2">
+                    <div class="item1">
+                        <h4 class="tecla">Team Builder</h4>
+                        <p class="tecp">Scans our talent network to create the optimal team for your project</p>
+                        <img src="icon-team-builder.svg">
+                    </div>
+                </th>
+                <th>
+           
+                </th>
+            </tr>
+            <tr class="second">
+                <td class="tdd" rowspan="3">
+             
+                    <div class="item4">
+                        <h4>Supervisor</h4>
+                        <p>Monitors activity to identify project roadblocks</p>
+                        <img src="icon-supervisor.svg">
+                    </div> 
+                </td>
+                <td class="idd2">
+              
+                </td>
+                <td class="tdd2" rowspan="2">
+                    <div class="item2">
+                        <h4 class="hecla">Calculator</h4>
+                        <p class="hecpla">Uses data from past projects to provide better delivery estimates</p>
+                        <img src="icon-calculator.svg">
+                    </div>
+            
+                </td>
+            </tr>
+            <tr class="third">
+                <td class="idd2">
+                    <div class="item3">
+                        <h4 class="adjust3">Karma</h4>
+                        <p>Regularly evaluates our talent to ensure quality</p>
+                        <img src="icon-karma.svg">
+                    </div>
+                </td>
+                <td >
+               
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        </div>
+</div>
+</body>
+</html>
